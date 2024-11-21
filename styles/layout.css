@@ -10,7 +10,7 @@ main {
     overflow: auto;
     padding: 4rem;
 
-    & .main-container {
+    &  .main-container {
         max-width: 33rem;
         margin-left: auto;
     }
