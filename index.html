@@ -22,7 +22,7 @@
 
                 <h1>Formulário de matrícula</h1>
                 <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
-            </div>
+          
 
             <form method="post" enctype="multipart/form-data">
                 <fieldset class="child-info">
@@ -60,15 +60,50 @@
                                 <path d="M12 13V21M12 13C11.2998 13 9.99153 14.9943 9.5 15.5M12 13C12.7002 13 14.0085 14.9943 14.5 15.5" stroke="#8F8881" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                                 
-                            <p>
-                                Clique para <br>
-                                Selecionar os arquivos
-                            </p>
+                                <p>
+                                    Clique para <br>
+                                    Selecionar os arquivos
+                                </p>
+                            </div>
+                        </div>
+
+                </fieldset>
+
+                <fieldset class="addres">
+                    <legend>Endereço residencial</legend>
+
+                    <div class="input-wrapper">
+                        <label for="cep">cep</label>
+                        <input type="text" id="cep'" name="cep">
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-wrapper flex-2">
+                            <label for="street">Rua</label>
+                            <input type="text" id="street" name="street" value="Rua das flores" disabled>
+                        </div>
+
+                        <div class="input-wrapper flex-1">
+                            <label for="number">Número</label>
+                            <input type="number" id="number" name="number">
                         </div>
                     </div>
 
+                    <div class="flex">
+                        <div class="input-wrapper flex-2">
+                            <label for="city">Cidade</label>
+                            <input type="text" id="city" name="street" value="São Paulo" disabled>
+                        </div>
+
+                        <div class="input-wrapper flex-1">
+                            <label for="state">Estado</label>
+                            <input type="text" id="state" name="state" value="SP" disabled>
+                        </div>
+                    </div>  
                 </fieldset>
-            </form>
+
+                </form>
+            </div>
         </main>
 
         <aside>
